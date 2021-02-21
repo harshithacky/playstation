@@ -197,7 +197,7 @@ button:hover img{
         width: 100%;
         order: 2;
         text-align: center;
-        margin-top: 3rem;
+        margin: 3rem 0 0 0;
     }
 
     .left-col button{
@@ -216,7 +216,7 @@ button:hover img{
 
     .left-col::after{
         height: 65%;
-        left: 80px;
+        left: 12%;
         top: 0;
     }
 }
@@ -228,6 +228,13 @@ button:hover img{
 
     .left-col h3{
         font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 386px){
+    .left-col::after{
+        left: 5%;
+        width: 6px;
     }
 }
 
