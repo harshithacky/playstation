@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation - New Generation Gaming</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <a href="#"> <img src="images/logo.png" alt="" class="logo"></a>
+            <img src="images/menu.png" alt="" class="menu-btn" id="menu-btn">
+            <ul id="nav-menu">
+                <li><a href="#">Game Controllers</a></li>
+                <li><a href="#">VR Accessories</a></li>
+                <li><a href="#">Media Remotes</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+            </div>
+           
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="left-col">
+                    <h1>PS4 V2<br>Dualshock 4</h1>
+                    <h3>Wireless Controller for PlayStation 4</h3>
+                    <p>(Compatible/Generic)</p>
+                    <h4>$32.50</h4>
+                    <button>Buy Now <img src="images/arrow.png" alt=""></button>
+                </div>
+                <div class="right-col">
+                        <img src="images/controller.png" class="controller" alt="">
+                        <div class="color-box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        })
+    </script>
+
+</body>
+</html>
